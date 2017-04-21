@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+
+	<title>Online shopping</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="./lib/jquery-3.2.1.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="./lib/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="./css/styles.css">
+
+	<script src="./scripts/script.js"></script>
+	
+	<script src="./scripts/connection_manager.js"></script>
+
+</head>
+
+
+<body>
+
+
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-2" style="background-color:gray;">
+				<img src="./images/shopping-cart-logo-icon.png" width="100" height="100"/>			
+			</div>
+
+			<div class="col-md-8" style="background-color:gray;">
+				<h1>Online shopping</h1>
+				<p> Browse items</p>
+			</div>
+
+			<div class="col-md-2" style="background-color:gray;">
+				<br><br><br>
+				<a href="./login.html" class="btn btn-primary" role="button">Login</a>
+				<a href="./signup.html" class="btn btn-success" role="button">Sign Up</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section2">
+		<div class="container-fluid">
+			<div class="row" >
+				<div class="col-md-2" style="background-color:lightgray;">
+
+					<h3>Filters</h3>
+					<div class="container">
+						<form>
+							<label class="checkbox-inline"><input type="checkbox" value="">Brand New</label></br>
+							<label class="checkbox-inline"><input type="checkbox" value="">Slightly used</label></br>
+							<label class="checkbox-inline"><input type="checkbox" value="">Option 3</label></br>
+						</form>
+					</div>
+
+					<h3>Location</h3>
+					<div class="form-group">
+						<label for="sel1">Select one:</label>
+						<select class="form-control" id="sel1">
+							<option>Colombo</option>
+							<option>Galle</option>
+							<option>Kandy</option>
+							<option>Kegalle</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="col-md-10" style="background-color:lightblue;">
+					<br></br>
+							<div class="container" id="containerIn">
+								
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
